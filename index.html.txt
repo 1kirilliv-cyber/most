@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сетевое оборудование</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 20px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      color: #ffffff;
+      border-bottom: 2px solid #3a3a3a;
+      padding-bottom: 10px;
+    }
+    .device {
+      display: flex;
+      align-items: center;
+      background: #2c2c2c;
+      padding: 14px;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .status-icon {
+      margin-right: 12px;
+    }
+    .status-icon img {
+      width: 20px;
+      height: 20px;
+      display: block;
+    }
+    .device-name {
+      flex-grow: 1;
+      font-weight: 500;
+    }
+    .device-link {
+      background: #4a90e2;
+      color: white;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .device-link:hover {
+      background: #357abd;
+    }
+    .updated {
+      text-align: center;
+      color: #888;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>📡 Оборудование</h2>
+
+  <div class="device">
+    <span class="status-icon"><img src="https://img.shields.io/uptimerobot/status/m802955905-6b0aa894ab22337a44a33b9d" alt="status"></span>
+    <span class="device-name">НаАндрюху</span>
+    <a class="device-link" href="https://naandr.mostmy.netcraze.link" target="_blank">Открыть</a>
+  </div>
+
+  <div class="device">
+    <span class="status-icon"><img src="https://img.shields.io/uptimerobot/status/m802955903-e79f4504e53c8857d93891ea" alt="status"></span>
+    <span class="device-name">Андрюха</span>
+    <a class="device-link" href="https://andr.mostmy.netcraze.link" target="_blank">Открыть</a>
+  </div>
+
+  <div class="device">
+    <span class="status-icon"><img src="https://img.shields.io/uptimerobot/status/m802955877-5d844b096f8ee7d2bff50067" alt="status"></span>
+    <span class="device-name">Сектор</span>
+    <a class="device-link" href="https://sector.mostmy.netcraze.link" target="_blank">Открыть</a>
+  </div>
+
+  <div class="device">
+    <span class="status-icon"><img src="https://img.shields.io/uptimerobot/status/m802955899-0afcd22bf592fbcbe8bc1e41" alt="status"></span>
+    <span class="device-name">Г21</span>
+    <a class="device-link" href="https://g21.mostmy.netcraze.link" target="_blank">Открыть</a>
+  </div>
+
+  <div class="device">
+    <span class="status-icon"><img src="https://img.shields.io/uptimerobot/status/m802955895-2aac800ff28b1d8ba575136d" alt="status"></span>
+    <span class="device-name">На Г21</span>
+<a class="device-link" href="https://68gb.mostmy.netcraze.link" target="_blank">Открыть</a>
+  </div>
+
+  <div class="updated">Статус обновляется автоматически каждые 5 минут</div>
+</body>
+</html>
